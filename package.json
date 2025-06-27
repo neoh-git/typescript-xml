@@ -18,5 +18,15 @@
     "files": [
         "dist"
     ],
-    "type": "module"
+    "scripts": {
+        "build": "tsc",
+        "ci": "npm run build",
+        "format": "prettier --write ."
+    },
+    "type": "module",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.6.2",
+        "typescript": "^5.8.3"
+    }
 }
