@@ -1,0 +1,22 @@
+{
+    "name": "typescript-xml",
+    "version": "0.0.1",
+    "description": "A demo package",
+    "keywords": [
+        "xml",
+        "typescript"
+    ],
+    "homepage": "https://github.com/neoh-git/typescript-xml",
+    "bugs": {
+        "url": "https://github.com/neoh-git/typescript-xml/issues"
+    },
+    "author": "Nick Westendorf <nick@neoh.ai> (https://neoh.ai)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neoh-git/typescript-xml.git"
+    },
+    "files": [
+        "dist"
+    ],
+    "type": "module"
+}
