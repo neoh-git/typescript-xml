@@ -1,3 +1,5 @@
-export interface IHasVisitor {
-    accept(visitor: unknown): void;
+import type { XmlVisitor } from "../visitors/visitor.js";
+
+export interface XmlHasVisitor {
+    accept(visitor: XmlVisitor): void;
 }
